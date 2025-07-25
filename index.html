@@ -1,1 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Sathvik Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Savate:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/e475b3e345.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-------------------- HOME SECTION -------------------------->
+    <div id="header">
+    <div class="container">
+<nav>
+    <img src="images/logo.png" class="logo">
+    <ul id="sidemenu">
+        <li><a href="#header">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <!-- <li><a href="#portfolio">PORTFOLIO</a></li> -->
+        <li><a href="#contact">CONTACT</a></li>
+        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+    </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
 
+</nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+                <h1> Hi, I am Sai Sathvik</h1>
+        </div>
+    </div>
+</div>
+<!----------------------- About section ----------------------------->
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/NAG04932.png">
+             </div>
+              <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I worked as an AI researcher at HaloHues Studios, a leading animation and post-production company renowned for its work on films like Hanu-Man and Kalki 2898 AD, among others.
+                    Engaged in research and development activities to explore new AI technologies and tools.Contributed for Web application in frontend technologies (HMTL, CSS, JS) and development. 
+                    Contributed for the continuous improvement of AI processes and methodologies and support for AI-related issues Collaborated with cross-functional teams to integrate AI solutions into existing workflows.I graduated with a degree in Computer Science and have a strong passion for the IT industry. I possess excellent communication and problem-solving skills and am enthusiastic about leveraging my academic knowledge and practical experience to make a positive impact. 
+                    As an ambitious recent graduate with a proven track record of success, I am skilled in Python, AI, Java Full Stack, and database management. I am eager to apply my knowledge and enthusiasm to real-world projects and contribute effectively to the field.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Object Oriented Programming</span><br>Python, Java</li>
+                            <li><span>Frontend Technologies</span><br>HTML, CSS, JavaScript</li>
+                            <li><span>Cloud Technology</span><br>Azure</li>
+                            <li><span>Frameworks</span><br>Django, React</li>
+                            <li><span>Databases</span><br>SQL</li>
+                            <li><span>Tools</span><br>Git, VS Code, GitHub, Docker(basic)</li>
+                            <li><span>Concepts</span><br>Data Structures, Algorithms, REST APIs, Jira</li>
+                            <li><span>Analytical Skills</span><br>Data analysis, Problem-solving, and Optimization</li>
+                            <li><span>Operating Systems</span><br>Windows</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>AI Research Intern</span><br>
+                                
+                            <span>Tech Stack:</span>Python, Django, JavaScript, HTML, CSS, Git, Jira<br>
+                            <br>Developed responsive web applications using Django, HTML, CSS, and JavaScript, enhancing user experience and aligning with project goals.<br>
+                            <br>Conducted research and development to explore emerging AI technologies and tools.</br>
+                            <br>Contributed to the improvement of AI processes, methodologies, and provided support for AI-related issues.</br>
+                            <br>Collaborated with cross-functional teams to integrate AI solutions into existing workflows.</br>
+                        </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelor of Technology - Computer Science and Engineering</span><br>St Martins Engineering College - CGPA 7.36</li>
+                            <li><span>Intermediate</span><br>Narayana Junior College - Percentage 87%</li>
+                            <li><span>SSC</span><br>Bhashyam Public School - CGPA 9.3</li>
+
+                        </ul>
+                  </div>
+            </div>
+        </div>
+    </div>
+ </div>
+
+<!----------------------- Services section --------------------->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="project-list">
+            <div>
+                <i class="fa-solid fa-road"></i>
+                <h2>Urban Road Extraction from High Resolution Satellite Images using Machine Learning</h2>
+                <p>Engineered and deployed a Machine Learning-driven system for automated road network extraction from high-resolution satellite imagery, optimizing data processing efficiency. </p>
+                <a href="https://github.com/Saisathvikdadi/-Urban-Road-Extraction-from-High-Res-Satellite-Images-using-Machine-Learning-">Learn more</a>
+            </div>
+             <div>
+                <i class="fa-solid fa-heart"></i>
+                <h2> Voice-Based Heartbeat Monitoring and Alerting System for Elderly People </h2>
+                <p>Conceptualized and designed a cutting-edge Wireless Health Monitoring System, focusing on systematic monitoring of heart rate and SpO2. </p>
+                <a href="https://github.com/Saisathvikdadi/Voice-Based-Heartbeat-Monitoring-and-Alerting-System-For-Elder-People">Learn more</a>
+            </div>
+             <div>
+                <i class="fa-solid fa-globe"></i>
+                <h2>Travel Management System</h2>
+                <p>Built a dynamic menu-driven application utilizing core Java concepts and the Collection API to streamline Booking operations for a new Travels and Logistics company.
+                Designed functionality that enables users to choose source, destination, travel date, 
+                and number of passengers, incorporating validations for date, source, destination, and available vacancies.</p>
+                <a href="https://github.com/Saisathvikdadi/TravelManagementSystem">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------------- contact me session ---------------------------------->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+           <h1 class="sub-title">Contact Me</h1>
+           <p><i class="fa-solid fa-paper-plane"></i>saisathvik.dadi1@gmail.com</p>
+           <p><i class="fa-solid fa-mobile"></i>+91-9441162225</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/sai-sathvik-dadi/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/Saisathvikdadi"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/saisathvik.dadi/"><i class="fa-brands fa-instagram"></i></a>
+
+            </div>
+            <a href="images/dadi sai sathvik-CV.pdf" download class="btn btn2">Download CV</a>
+        </div>
+
+            <div class="contact-right">
+                <form name='submit-to-google-sheet'>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required> 
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+ </div>
+
+<script>
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+           for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+    var sidemenu=document.getElementById('sidemenu');
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzkh4yvvqS5n9h8yZIVF-mbSEXrIy6yWFqw52H2pTQiUab89ext5VRyAYq4CwPLWWIZ/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById('msg')
+  
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = 'Message sent successfully'
+        setTimeout(function(){
+            msg.innerHTML = ''
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
